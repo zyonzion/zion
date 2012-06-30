@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  mailstop: MyString
+  location: MyString
+  isRemote: false
+  established: MyString
+  department_head: 
+  case_type_handled: MyString
+  main_phone: MyString
+  main_fax: MyString
+  email: MyString
+  address: MyString
+  open_time: MyString
+  close_time: MyString
+  open_weekends: false
+
+two:
+  name: MyString
+  mailstop: MyString
+  location: MyString
+  isRemote: false
+  established: MyString
+  department_head: 
+  case_type_handled: MyString
+  main_phone: MyString
+  main_fax: MyString
+  email: MyString
+  address: MyString
+  open_time: MyString
+  close_time: MyString
+  open_weekends: false

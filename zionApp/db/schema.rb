@@ -11,7 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120630041651) do
+ActiveRecord::Schema.define(:version => 20120630042904) do
+
+  create_table "departments", :force => true do |t|
+    t.string   "name"
+    t.string   "mailstop"
+    t.string   "location"
+    t.boolean  "isRemote"
+    t.string   "established"
+    t.integer  "department_head"
+    t.string   "case_type_handled"
+    t.string   "main_phone"
+    t.string   "main_fax"
+    t.string   "email"
+    t.string   "address"
+    t.string   "open_time"
+    t.string   "close_time"
+    t.boolean  "open_weekends"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "user_name"
