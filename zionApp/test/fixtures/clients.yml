@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  business_phone: MyString
+  personal_phone: MyString
+  cell_phone: MyString
+  business_email: MyString
+  personal_email: MyString
+  business_address1: MyString
+  business_address2: MyString
+  business_city: MyString
+  business_state: MyString
+  business_zip: MyString
+  business_country: MyString
+  personal_address1: MyString
+  personal_address2: MyString
+  personal_city: MyString
+  personal_state: MyString
+  personal_zip: MyString
+  personal_country: MyString
+  case_number1: MyString
+  case_number2: MyString
+  case_number3: MyString
+  case_number4: MyString
+  case_number5: MyString
+  client_username: MyString
+  client_password: MyString
+  accountpayables_id: 1
+
+two:
+  salutation: MyString
+  first_name: MyString
+  last_name: MyString
+  business_phone: MyString
+  personal_phone: MyString
+  cell_phone: MyString
+  business_email: MyString
+  personal_email: MyString
+  business_address1: MyString
+  business_address2: MyString
+  business_city: MyString
+  business_state: MyString
+  business_zip: MyString
+  business_country: MyString
+  personal_address1: MyString
+  personal_address2: MyString
+  personal_city: MyString
+  personal_state: MyString
+  personal_zip: MyString
+  personal_country: MyString
+  case_number1: MyString
+  case_number2: MyString
+  case_number3: MyString
+  case_number4: MyString
+  case_number5: MyString
+  client_username: MyString
+  client_password: MyString
+  accountpayables_id: 1
