@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  clients_id: 1
+  escrow_amount: 1
+  escrow_balance: 1
+  transactions_id: 1
+
+two:
+  clients_id: 1
+  escrow_amount: 1
+  escrow_balance: 1
+  transactions_id: 1

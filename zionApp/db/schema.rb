@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120702164932) do
+ActiveRecord::Schema.define(:version => 20120702170158) do
+
+  create_table "accountpayables", :force => true do |t|
+    t.integer  "clients_id"
+    t.integer  "escrow_amount"
+    t.integer  "escrow_balance"
+    t.integer  "transactions_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "clients", :force => true do |t|
     t.string   "salutation"
@@ -63,6 +72,17 @@ ActiveRecord::Schema.define(:version => 20120702164932) do
     t.boolean  "open_weekends"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+  end
+
+  create_table "transactions", :force => true do |t|
+    t.datetime "transaction_date"
+    t.integer  "transaction_amount"
+    t.integer  "accountpayables_id"
+    t.string   "transaction_description"
+    t.string   "transaction_notes"
+    t.integer  "transaction_users_id"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
   end
 
   create_table "users", :force => true do |t|
